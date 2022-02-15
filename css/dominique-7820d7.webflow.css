@@ -84,9 +84,8 @@ body {
 .nav-link-1 {
   margin-left: -190px;
   padding-left: 20px;
+  font-family: Sansita, sans-serif;
   color: #f5ce3e;
-  font-style: normal;
-  text-decoration: none;
 }
 
 .nav-link-1:hover {
@@ -393,7 +392,7 @@ body {
   background-attachment: scroll, scroll;
 }
 
-.work {
+#portfolio {
   margin-top: 0px;
   padding-top: 0px;
 }
