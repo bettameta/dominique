@@ -954,7 +954,7 @@ img {
     bottom: auto;
     width: auto;
     height: auto;
-    margin: 55px 42px 24px 15px;
+    margin: 89px 42px 24px 23px;
     padding-right: 10px;
     padding-left: 39px;
     font-size: 20px;
@@ -982,7 +982,7 @@ img {
   }
 
   .heading-4 {
-    margin-top: 256px;
+    margin-top: 209px;
     margin-bottom: -37px;
     padding-top: 0px;
     font-size: 20px;
@@ -1196,6 +1196,10 @@ img {
   }
 
   .nav {
+    margin-top: 0px;
+    margin-right: 175px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: rgba(18, 17, 17, 0.52);
     font-size: 14px;
   }
@@ -1215,6 +1219,7 @@ img {
     top: -91px;
     right: -91px;
     bottom: -91px;
+    margin-top: 14px;
     background-color: transparent;
   }
 
@@ -1399,6 +1404,12 @@ img {
   .columns-4 {
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+
+  .nav {
+    margin-right: 81px;
+    margin-left: 15px;
+    padding: 4px 6px 4px 35px;
   }
 
   .image-5 {
