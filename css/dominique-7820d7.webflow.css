@@ -17,6 +17,15 @@ body {
   line-height: 20px;
 }
 
+a {
+  text-decoration: underline;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 .grid {
   position: static;
   display: -ms-grid;
@@ -131,7 +140,8 @@ body {
 }
 
 .quote {
-  margin: 116px 60px 40px 765px;
+  position: relative;
+  margin: 138px 0px 40px 148px;
   padding-right: 0px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
@@ -141,7 +151,7 @@ body {
 }
 
 .grid-4 {
-  margin: 60px;
+  margin: 60px 0px;
   padding-top: 0px;
   justify-items: center;
   -webkit-box-align: center;
@@ -156,8 +166,8 @@ body {
 }
 
 .logo {
-  margin-top: -106px;
-  margin-left: 10px;
+  margin-top: -29px;
+  margin-left: 60px;
   padding-top: 29px;
 }
 
@@ -186,7 +196,7 @@ body {
 }
 
 .heading-5 {
-  margin: 0px 60px;
+  margin: 0px;
   padding-top: 20px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
@@ -195,7 +205,7 @@ body {
 }
 
 .heading-4 {
-  margin: 321px 60px 60px;
+  margin: 273px 0px 60px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
   font-size: 30px;
@@ -305,17 +315,17 @@ body {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   text-align: left;
 }
@@ -396,19 +406,20 @@ body {
 .about-section {
   display: block;
   height: 500px;
+  min-height: 500px;
   margin-right: 0px;
   margin-left: 0px;
   background-color: #818284;
 }
 
 .hero-portfolio {
-  position: static;
+  position: relative;
   max-width: none;
   background-color: rgba(0, 0, 0, 0.02);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(33%, transparent), color-stop(42%, #000)), url('../images/dorothy-look-66.png');
   background-image: linear-gradient(180deg, transparent 33%, #000 42%), url('../images/dorothy-look-66.png');
   background-position: 0px 0px, 50% 0%;
-  background-size: auto, auto 160%;
+  background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
 }
@@ -537,11 +548,11 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 60px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  margin: 53px 0px 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -560,7 +571,7 @@ body {
   margin: 19px 60px 20px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
-  font-size: 2px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -574,7 +585,11 @@ body {
   background-color: transparent;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.nav:hover {
+  color: #18a4d6;
 }
 
 .navigation {
@@ -588,8 +603,14 @@ body {
 }
 
 .image-5 {
+  position: static;
+  left: -18px;
+  top: -18px;
+  right: -18px;
+  bottom: -18px;
+  max-width: none;
   margin-top: 0px;
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 .brand {
@@ -603,6 +624,37 @@ body {
   margin-right: 60px;
 }
 
+.div-block-4 {
+  position: relative;
+  margin: auto;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/dom-logo-thin.png');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.image-6 {
+  position: relative;
+  z-index: auto;
+  display: block;
+  margin-top: -9px;
+  margin-left: 0px;
+  border: 1px none #000;
+  border-radius: 0px;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
+
+.columns-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: none;
+}
+
 @media screen and (max-width: 991px) {
   .green-container {
     height: 350px;
@@ -613,9 +665,11 @@ body {
   }
 
   .quote {
+    position: relative;
     display: block;
-    margin-top: -28px;
-    margin-left: 540px;
+    margin-top: 86px;
+    margin-left: 74px;
+    padding-right: 10px;
     padding-left: 0px;
     float: right;
     font-size: 30px;
@@ -649,7 +703,7 @@ body {
   }
 
   .heading-4 {
-    margin-top: 417px;
+    margin-top: 392px;
     margin-bottom: 0px;
   }
 
@@ -680,9 +734,9 @@ body {
   }
 
   .about-me-text {
-    margin-top: 38px;
+    margin-top: 62px;
     margin-right: 0px;
-    margin-left: 57px;
+    margin-left: 0px;
     padding-top: 0px;
     padding-left: 0px;
     font-size: 16px;
@@ -701,11 +755,8 @@ body {
     display: block;
     width: 40%;
     max-width: 70%;
-    margin-right: 0px;
-    margin-left: 23px;
-    padding-top: 0px;
-    padding-right: 61px;
-    padding-left: 44px;
+    margin: -26px 0px 0px;
+    padding: 26px;
     -o-object-fit: scale-down;
     object-fit: scale-down;
   }
@@ -774,6 +825,7 @@ body {
 
   .about-section {
     height: 350px;
+    min-height: 0px;
   }
 
   .hero-portfolio {
@@ -804,8 +856,12 @@ body {
     margin-bottom: 0px;
   }
 
+  .link {
+    font-size: 12px;
+  }
+
   .image-5 {
-    margin-top: -5px;
+    margin-top: -22px;
     margin-left: 60px;
   }
 
@@ -818,6 +874,32 @@ body {
 
   .menu-button {
     padding: 4px;
+  }
+
+  .image-6 {
+    position: relative;
+    display: block;
+    margin-top: -65px;
+    margin-left: 0px;
+    padding: 44px;
+    background-clip: content-box;
+    -webkit-text-fill-color: inherit;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .columns-5 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .column-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-8 {
+    padding: 0px;
   }
 }
 
@@ -839,11 +921,16 @@ body {
   }
 
   .quote {
-    position: absolute;
+    position: relative;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: auto;
     height: auto;
-    margin: 72px 0px 24px 327px;
-    padding-right: 0px;
-    padding-left: 112px;
+    margin: 40px 23px 24px 15px;
+    padding-right: 10px;
+    padding-left: 28px;
     font-size: 20px;
     line-height: 30px;
     -o-object-fit: fill;
@@ -852,7 +939,7 @@ body {
 
   .grid-4 {
     display: block;
-    margin: -48px 21px 46px;
+    margin: 1px 21px 46px;
     grid-auto-flow: row;
   }
 
@@ -869,8 +956,8 @@ body {
   }
 
   .heading-4 {
-    margin-top: 483px;
-    margin-bottom: -72px;
+    margin-top: 230px;
+    margin-bottom: -37px;
     padding-top: 0px;
     font-size: 20px;
   }
@@ -927,12 +1014,12 @@ body {
   .about-me-text {
     display: block;
     width: auto;
-    margin: 10px 60px;
+    margin: 0px 60px 10px;
     padding-top: 0px;
     padding-right: 10px;
     padding-left: 0px;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
   }
 
   .columns-2 {
@@ -962,12 +1049,8 @@ body {
   .about-me {
     position: static;
     width: 35%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+    margin: 0px 0px -21px;
+    padding: 28px;
     float: none;
     clear: none;
     -webkit-align-self: stretch;
@@ -992,7 +1075,7 @@ body {
 
   .port-image {
     width: 100%;
-    margin-top: 11px;
+    margin-top: 0px;
   }
 
   .portfolio {
@@ -1015,10 +1098,10 @@ body {
   .hero-portfolio {
     position: static;
     max-width: 1200px;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(18%, transparent), color-stop(32%, #000)), url('../images/dorothy-look-66.png');
-    background-image: linear-gradient(180deg, transparent 18%, #000 32%), url('../images/dorothy-look-66.png');
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(9%, transparent), color-stop(22%, #000)), url('../images/dorothy-look-66.png');
+    background-image: linear-gradient(180deg, transparent 9%, #000 22%), url('../images/dorothy-look-66.png');
     background-position: 0px 0px, 55% 0%;
-    background-size: auto, auto;
+    background-size: auto, auto 95%;
     background-repeat: repeat, repeat-y;
     background-attachment: scroll, fixed;
     -o-object-fit: fill;
@@ -1058,6 +1141,14 @@ body {
     position: static;
     display: -ms-grid;
     display: grid;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -1078,7 +1169,7 @@ body {
   }
 
   .image-5 {
-    margin-top: 0px;
+    margin-top: -32px;
     margin-left: 39px;
   }
 
@@ -1106,16 +1197,27 @@ body {
   .menu-button.w--open {
     background-color: transparent;
   }
+
+  .image-6 {
+    margin-top: -97px;
+    margin-left: -46px;
+    padding: 64px;
+  }
+
+  .container-5 {
+    padding: 0px 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .quote {
-    margin-top: 146px;
-    margin-right: 0px;
-    margin-left: 285px;
+    margin-top: 28px;
+    margin-right: 35px;
+    margin-left: 29px;
     padding-right: 18px;
     padding-left: 6px;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .grid-4 {
@@ -1124,7 +1226,8 @@ body {
   }
 
   .heading-4 {
-    margin-top: 572px;
+    margin-top: 153px;
+    margin-bottom: -51px;
   }
 
   .about-me-text {
@@ -1132,7 +1235,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 24px 24px 11px;
+    margin: 0px 24px 11px;
     padding-right: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
@@ -1140,7 +1243,8 @@ body {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
   }
 
   .columns-2 {
@@ -1155,7 +1259,7 @@ body {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-    padding: 29px;
+    padding: 12px;
     text-align: center;
   }
 
@@ -1176,6 +1280,12 @@ body {
     height: 450px;
   }
 
+  .hero-portfolio {
+    position: static;
+    background-position: 0px 0px, 52% 0%;
+    background-size: auto, auto 80%;
+  }
+
   .work {
     margin-right: 0px;
     margin-left: 0px;
@@ -1188,6 +1298,7 @@ body {
   }
 
   .image-5 {
+    position: static;
     margin-top: -34px;
     margin-left: 9px;
   }
@@ -1199,6 +1310,23 @@ body {
   .icon {
     text-align: left;
   }
+
+  .image-6 {
+    margin-top: -77px;
+    margin-left: -38px;
+    padding: 42px;
+  }
+}
+
+#w-node-_3567ab41-7cf9-b257-cdac-ba60305ef15e-59ea4a52 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -1210,6 +1338,14 @@ body {
   #w-node-_5a419f31-7dc7-7831-10ff-7f273d8cfbc4-59ea4a52 {
     -ms-grid-column-align: center;
     justify-self: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
   }
 }
 
