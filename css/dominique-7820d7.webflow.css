@@ -82,10 +82,13 @@ body {
 }
 
 .nav-link-1 {
+  margin-top: 0px;
   margin-left: -190px;
   padding-left: 20px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
+  font-style: normal;
+  text-decoration: none;
 }
 
 .nav-link-1:hover {
@@ -128,7 +131,7 @@ body {
 }
 
 .quote {
-  margin: 10px 40px 40px 780px;
+  margin: 116px 60px 40px 765px;
   padding-right: 0px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
@@ -138,8 +141,8 @@ body {
 }
 
 .grid-4 {
-  margin: 4px 40px 122px;
-  padding-top: 61px;
+  margin: 60px;
+  padding-top: 0px;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -182,9 +185,8 @@ body {
   line-height: 26px;
 }
 
-.about {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.heading-5 {
+  margin: 0px 60px;
   padding-top: 20px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
@@ -193,8 +195,7 @@ body {
 }
 
 .heading-4 {
-  margin-top: 500px;
-  margin-bottom: 7px;
+  margin: 321px 60px 60px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
   font-size: 30px;
@@ -212,8 +213,7 @@ body {
 }
 
 .contact {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin: 0px 60px 10px;
   padding-top: 20px;
   padding-left: 0px;
   font-family: Sansita, sans-serif;
@@ -277,6 +277,7 @@ body {
 }
 
 .nav-menu {
+  width: 345px;
   margin-right: 40px;
   margin-left: auto;
   padding-left: 0px;
@@ -286,23 +287,36 @@ body {
   padding-top: 14px;
 }
 
-.about-me-para {
+.about-me-text {
   position: relative;
-  display: block;
-  width: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
   margin-top: 0px;
   margin-bottom: auto;
-  margin-left: 0px;
-  padding-top: 0px;
+  margin-left: 60px;
+  padding-top: 83px;
+  padding-right: 0px;
   padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   color: #000;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: left;
 }
 
@@ -326,15 +340,16 @@ body {
 }
 
 .about-me {
+  position: static;
   display: block;
-  width: 100%;
+  overflow: visible;
+  width: 40%;
   height: auto;
   max-width: 120%;
-  margin-right: 146px;
-  margin-left: 0px;
-  padding-top: 54px;
-  padding-bottom: 34px;
-  padding-left: 0px;
+  margin: 0px 60px 0px 0px;
+  padding: 0px;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .port-text {
@@ -371,6 +386,7 @@ body {
 
 .body {
   overflow: auto;
+  max-width: none;
   background-color: #0e0e0e;
   cursor: pointer;
   -o-object-fit: contain;
@@ -378,27 +394,49 @@ body {
 }
 
 .about-section {
+  display: block;
   height: 500px;
+  margin-right: 0px;
   margin-left: 0px;
   background-color: #818284;
 }
 
 .hero-portfolio {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(26%, transparent), color-stop(65%, #000)), url('../images/dorothy-look-66.png');
-  background-image: linear-gradient(180deg, transparent 26%, #000 65%), url('../images/dorothy-look-66.png');
+  position: static;
+  max-width: none;
+  background-color: rgba(0, 0, 0, 0.02);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(33%, transparent), color-stop(42%, #000)), url('../images/dorothy-look-66.png');
+  background-image: linear-gradient(180deg, transparent 33%, #000 42%), url('../images/dorothy-look-66.png');
   background-position: 0px 0px, 50% 0%;
-  background-size: auto, auto 140%;
+  background-size: auto, auto 160%;
   background-repeat: repeat, no-repeat;
-  background-attachment: scroll, scroll;
+  background-attachment: scroll, fixed;
 }
 
-#portfolio {
+.contact-section {
+  margin-left: 0px;
+}
+
+.work {
   margin-top: 0px;
   padding-top: 0px;
 }
 
 .about-para {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 45%;
+  margin-top: 108px;
+  margin-right: 0px;
+  margin-left: 38px;
+  padding-right: 49px;
+  padding-left: 50px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .about-img {
@@ -406,7 +444,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
+  width: 45%;
+  margin-left: 0px;
 }
 
 .container-4 {
@@ -440,6 +479,130 @@ body {
   align-items: center;
 }
 
+.about {
+  height: 450px;
+  background-color: #818284;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 41px 118px 70px 114px;
+  padding-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.column-5 {
+  display: block;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.column-6 {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 60px;
+  padding-left: 60px;
+  -o-object-fit: none;
+  object-fit: none;
+}
+
+.heading-8 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.columns-3 {
+  margin-top: 0px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.grid-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-flow: column;
+  -ms-grid-columns: 1.25fr;
+  grid-template-columns: 1.25fr;
+}
+
+.link-block {
+  text-align: center;
+}
+
+.link {
+  display: block;
+  margin: 19px 60px 20px;
+  font-family: Sansita, sans-serif;
+  color: #f5ce3e;
+  font-size: 2px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.columns-4 {
+  margin: 60px;
+}
+
+.nav {
+  background-color: transparent;
+  font-family: Sansita, sans-serif;
+  color: #f5ce3e;
+  font-size: 20px;
+}
+
+.navigation {
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #040404;
+}
+
+.navbar-2 {
+  background-color: transparent;
+}
+
+.image-5 {
+  margin-top: 0px;
+  margin-left: 60px;
+}
+
+.brand {
+  margin-left: 60px;
+  padding-top: 33px;
+  padding-right: 32px;
+  padding-left: 0px;
+}
+
+.nav-menu-2 {
+  margin-right: 60px;
+}
+
 @media screen and (max-width: 991px) {
   .green-container {
     height: 350px;
@@ -450,9 +613,11 @@ body {
   }
 
   .quote {
-    margin-top: 40px;
-    margin-left: 430px;
-    padding-left: 100px;
+    display: block;
+    margin-top: -28px;
+    margin-left: 540px;
+    padding-left: 0px;
+    float: right;
     font-size: 30px;
     line-height: 35px;
   }
@@ -460,8 +625,9 @@ body {
   .grid-4 {
     display: -ms-grid;
     display: grid;
+    margin-top: 45px;
     margin-bottom: 110px;
-    padding-top: 69px;
+    padding-top: 0px;
     grid-auto-columns: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 70px;
@@ -480,6 +646,11 @@ body {
     margin-top: 49px;
     font-size: 16px;
     line-height: 22px;
+  }
+
+  .heading-4 {
+    margin-top: 417px;
+    margin-bottom: 0px;
   }
 
   .column {
@@ -508,9 +679,15 @@ body {
     position: relative;
   }
 
-  .about-me-para {
+  .about-me-text {
+    margin-top: 38px;
+    margin-right: 0px;
+    margin-left: 57px;
+    padding-top: 0px;
+    padding-left: 0px;
     font-size: 16px;
     line-height: 20px;
+    text-align: left;
   }
 
   .columns-2 {
@@ -522,12 +699,15 @@ body {
 
   .about-me {
     display: block;
-    width: 110%;
+    width: 40%;
     max-width: 70%;
     margin-right: 0px;
-    margin-left: 57px;
-    padding-top: 36px;
-    padding-left: 0px;
+    margin-left: 23px;
+    padding-top: 0px;
+    padding-right: 61px;
+    padding-left: 44px;
+    -o-object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .port-text {
@@ -614,6 +794,31 @@ body {
   .about-content {
     margin-top: 0px;
   }
+
+  .grid-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 13px;
+    margin-bottom: 0px;
+  }
+
+  .image-5 {
+    margin-top: -5px;
+    margin-left: 60px;
+  }
+
+  .icon {
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    color: #f5ce3e;
+  }
+
+  .menu-button {
+    padding: 4px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -635,9 +840,10 @@ body {
 
   .quote {
     position: absolute;
-    margin-top: 70px;
-    margin-bottom: 0px;
-    margin-left: 300px;
+    height: auto;
+    margin: 72px 0px 24px 327px;
+    padding-right: 0px;
+    padding-left: 112px;
     font-size: 20px;
     line-height: 30px;
     -o-object-fit: fill;
@@ -646,8 +852,7 @@ body {
 
   .grid-4 {
     display: block;
-    margin-top: -48px;
-    margin-bottom: 46px;
+    margin: -48px 21px 46px;
     grid-auto-flow: row;
   }
 
@@ -656,7 +861,7 @@ body {
     cursor: auto;
   }
 
-  .about {
+  .heading-5 {
     position: static;
     display: block;
     margin-top: 25px;
@@ -664,9 +869,9 @@ body {
   }
 
   .heading-4 {
-    margin-top: 500px;
+    margin-top: 483px;
     margin-bottom: -72px;
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 20px;
   }
 
@@ -719,13 +924,12 @@ body {
     padding-top: 10px;
   }
 
-  .about-me-para {
+  .about-me-text {
     display: block;
     width: auto;
-    margin-top: auto;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 10px 60px;
     padding-top: 0px;
+    padding-right: 10px;
     padding-left: 0px;
     font-size: 16px;
     text-align: left;
@@ -757,9 +961,10 @@ body {
 
   .about-me {
     position: static;
+    width: 35%;
     margin-top: 0px;
     margin-right: 0px;
-    margin-left: 41px;
+    margin-left: 0px;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -772,16 +977,26 @@ body {
     text-align: center;
   }
 
+  .port-text {
+    font-size: 16px;
+  }
+
   .div-block-2 {
     padding-top: 10px;
+    font-size: 14px;
   }
 
   .social {
-    margin-left: 6px;
+    margin-left: 32px;
+  }
+
+  .port-image {
+    width: 100%;
+    margin-top: 11px;
   }
 
   .portfolio {
-    margin-top: 40px;
+    margin-top: 88px;
     margin-bottom: 86px;
   }
 
@@ -798,12 +1013,23 @@ body {
   }
 
   .hero-portfolio {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(18%, transparent), color-stop(32%, #000)), -webkit-gradient(linear, left top, left bottom, color-stop(26%, transparent), color-stop(65%, #000)), url('../images/dorothy-looks2.png');
-    background-image: linear-gradient(180deg, transparent 18%, #000 32%), linear-gradient(180deg, transparent 26%, #000 65%), url('../images/dorothy-looks2.png');
-    background-position: 0px 0px, 0px 0px, 50% 0%;
-    background-size: auto, auto, auto 50%;
-    background-repeat: repeat, repeat, repeat-y;
-    background-attachment: scroll, scroll, scroll;
+    position: static;
+    max-width: 1200px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(18%, transparent), color-stop(32%, #000)), url('../images/dorothy-look-66.png');
+    background-image: linear-gradient(180deg, transparent 18%, #000 32%), url('../images/dorothy-look-66.png');
+    background-position: 0px 0px, 55% 0%;
+    background-size: auto, auto;
+    background-repeat: repeat, repeat-y;
+    background-attachment: scroll, fixed;
+    -o-object-fit: fill;
+    object-fit: fill;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+
+  .work {
+    margin-right: 21px;
+    margin-left: 21px;
   }
 
   .about-para {
@@ -827,23 +1053,94 @@ body {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
+
+  .grid-5 {
+    position: static;
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1.25fr;
+    grid-template-columns: 1.25fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .link {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+
+  .nav {
+    background-color: rgba(18, 17, 17, 0.52);
+    font-size: 14px;
+  }
+
+  .image-5 {
+    margin-top: 0px;
+    margin-left: 39px;
+  }
+
+  .nav-menu-2 {
+    left: -91px;
+    top: -91px;
+    right: -91px;
+    bottom: -91px;
+    background-color: transparent;
+  }
+
+  .link-block-2 {
+    margin-left: 0px;
+  }
+
+  .icon {
+    color: #f5ce3e;
+  }
+
+  .menu-button {
+    color: #f5ce3e;
+    font-size: 30px;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
+  }
 }
 
 @media screen and (max-width: 479px) {
-  .about-me-para {
+  .quote {
+    margin-top: 146px;
+    margin-right: 0px;
+    margin-left: 285px;
+    padding-right: 18px;
+    padding-left: 6px;
+    font-size: 16px;
+  }
+
+  .grid-4 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .heading-4 {
+    margin-top: 572px;
+  }
+
+  .about-me-text {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: -10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 24px 24px 11px;
+    padding-right: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    font-size: 16px;
   }
 
   .columns-2 {
@@ -855,14 +1152,64 @@ body {
   .about-me {
     position: static;
     display: block;
+    width: 50%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 0px;
+    padding: 29px;
     text-align: center;
+  }
+
+  .port-text {
+    font-size: 14px;
+  }
+
+  .social {
+    margin-left: 12px;
+  }
+
+  .portfolio {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .about-section {
     height: 450px;
+  }
+
+  .work {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .grid-5 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .image-5 {
+    margin-top: -34px;
+    margin-left: 9px;
+  }
+
+  .nav-menu-2 {
+    margin-right: 53px;
+  }
+
+  .icon {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-_647f804e-734d-6a21-90b1-5a4a17ded518-59ea4a52 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_5a419f31-7dc7-7831-10ff-7f273d8cfbc4-59ea4a52 {
+    -ms-grid-column-align: center;
+    justify-self: center;
   }
 }
 
