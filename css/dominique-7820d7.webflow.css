@@ -382,7 +382,8 @@ img {
 }
 
 .social {
-  margin-left: 22px;
+  margin-right: 8px;
+  margin-left: 8px;
   padding-left: 0px;
 }
 
@@ -819,7 +820,13 @@ img {
   }
 
   .social {
-    margin-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+  }
+
+  .mail {
+    padding: 5px;
   }
 
   .port-text-copy {
@@ -1089,7 +1096,13 @@ img {
   }
 
   .social {
-    margin-left: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+  }
+
+  .mail {
+    padding: 5px;
   }
 
   .port-image {
@@ -1215,6 +1228,10 @@ img {
     color: #f5ce3e;
   }
 
+  .icon:hover {
+    color: #18a4d6;
+  }
+
   .menu-button {
     color: #f5ce3e;
     font-size: 30px;
@@ -1268,7 +1285,7 @@ img {
   }
 
   .heading-4 {
-    margin-top: 215px;
+    margin-top: 203px;
     margin-bottom: -51px;
     font-size: 18px;
   }
@@ -1339,8 +1356,9 @@ img {
   }
 
   .social {
-    margin-left: 10px;
-    padding: 7px 7px 7px 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
   }
 
   .mail {
