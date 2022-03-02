@@ -420,7 +420,7 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), color-stop(42%, #000)), url('../images/dorothy-look-66.png');
   background-image: linear-gradient(180deg, transparent 25%, #000 42%), url('../images/dorothy-look-66.png');
   background-position: 0px 0px, 50% 0%;
-  background-size: auto, cover;
+  background-size: auto, auto;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
 }
@@ -586,7 +586,7 @@ img {
   background-color: transparent;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .nav:hover {
@@ -1284,7 +1284,7 @@ img {
   .icon {
     margin-top: 20px;
     margin-right: 20px;
-    padding: 0px;
+    padding: 0px 21px 0px 0px;
     color: #f5ce3e;
   }
 
@@ -1345,7 +1345,7 @@ img {
   }
 
   .heading-4 {
-    margin-top: 152px;
+    margin-top: 95px;
     margin-bottom: -51px;
     font-size: 18px;
   }
@@ -1478,7 +1478,7 @@ img {
   }
 
   .icon {
-    padding-right: 14px;
+    padding-right: 0px;
     text-align: left;
   }
 
