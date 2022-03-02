@@ -205,7 +205,7 @@ img {
 }
 
 .heading-4 {
-  margin: 324px 0px 40px;
+  margin: 161px 0px 40px;
   font-family: Sansita, sans-serif;
   color: #f5ce3e;
   font-size: 30px;
@@ -709,9 +709,26 @@ img {
     line-height: 22px;
   }
 
+  .heading-5 {
+    font-size: 25px;
+  }
+
   .heading-4 {
-    margin-top: 254px;
+    margin-top: 209px;
     margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .contact {
+    font-size: 25px;
+  }
+
+  .heading-6 {
+    font-size: 20px;
+  }
+
+  .heading-7 {
+    font-size: 20px;
   }
 
   .column {
@@ -877,8 +894,28 @@ img {
     font-size: 12px;
   }
 
+  .columns-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
   .nav {
+    font-size: 20px;
     text-align: left;
+  }
+
+  .nav.w--current {
+    font-size: 20px;
   }
 
   .image-5 {
@@ -982,7 +1019,7 @@ img {
   }
 
   .heading-4 {
-    margin-top: 209px;
+    margin-top: 188px;
     margin-bottom: -37px;
     padding-top: 0px;
     font-size: 20px;
@@ -999,10 +1036,12 @@ img {
 
   .heading-6 {
     display: block;
+    margin-top: 0px;
     font-size: 16px;
   }
 
   .heading-7 {
+    margin-top: 0px;
     font-size: 16px;
   }
 
@@ -1040,10 +1079,8 @@ img {
   .about-me-text {
     display: block;
     width: auto;
-    margin: 0px 60px 10px;
-    padding-top: 0px;
-    padding-right: 10px;
-    padding-left: 0px;
+    margin: 0px 30px 10px;
+    padding: 10px 0px 0px;
     font-size: 16px;
     text-align: center;
   }
@@ -1075,8 +1112,8 @@ img {
   .about-me {
     position: static;
     width: 35%;
-    margin: 0px 0px -21px;
-    padding: 28px;
+    margin: -5px 0px 0px;
+    padding: 14px;
     float: none;
     clear: none;
     -webkit-align-self: stretch;
@@ -1096,13 +1133,13 @@ img {
   }
 
   .social {
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0px 9px 9px;
   }
 
   .mail {
-    padding: 5px;
+    padding: 0px 9px 9px;
   }
 
   .port-image {
@@ -1111,8 +1148,8 @@ img {
   }
 
   .portfolio {
-    margin-top: 88px;
-    margin-bottom: 86px;
+    margin-top: 62px;
+    margin-bottom: 33px;
   }
 
   .column-4 {
@@ -1129,6 +1166,7 @@ img {
 
   .hero-portfolio {
     position: static;
+    overflow: visible;
     max-width: 1200px;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(9%, transparent), color-stop(22%, #000)), url('../images/dorothy-look-66.png');
     background-image: linear-gradient(180deg, transparent 9%, #000 22%), url('../images/dorothy-look-66.png');
@@ -1195,12 +1233,21 @@ img {
     margin-left: 60px;
   }
 
+  .columns-4 {
+    display: block;
+    margin-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .nav {
     margin-top: 0px;
     margin-right: 175px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: rgba(18, 17, 17, 0.52);
+    margin-bottom: 0px;
+    padding: 0px 10px 10px;
+    background-color: rgba(9, 9, 9, 0.52);
     font-size: 14px;
   }
 
@@ -1215,12 +1262,19 @@ img {
   }
 
   .nav-menu-2 {
-    left: -91px;
-    top: -91px;
-    right: -91px;
-    bottom: -91px;
-    margin-top: 14px;
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    overflow: hidden;
+    max-width: none;
+    margin: 50px -108px 0px auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
     background-color: transparent;
+    -o-object-fit: contain;
+    object-fit: contain;
   }
 
   .link-block-2 {
@@ -1228,8 +1282,9 @@ img {
   }
 
   .icon {
-    margin-right: 0px;
-    padding-right: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0px;
     color: #f5ce3e;
   }
 
@@ -1290,7 +1345,7 @@ img {
   }
 
   .heading-4 {
-    margin-top: 203px;
+    margin-top: 152px;
     margin-bottom: -51px;
     font-size: 18px;
   }
